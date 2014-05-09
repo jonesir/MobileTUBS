@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- This is the actionbar consisting of an imageview representing drawer indicator and a title -->
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/default_actionbar_background_color" >
+
+        <ImageView
+            android:id="@+id/drawer_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/drawer"
+            android:src="@drawable/drawer" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/drawer_icon"
+            android:textColor="@color/tubs_theme_color"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <!-- This is divider between actionbar and main content -->
+
+    <View
+        android:id="@+id/divider_view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/actionbar_layout"
+        android:background="@color/tubs_theme_color" />
+
+</RelativeLayout>

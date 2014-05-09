@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Mobile TUBS</string>
+
+    <string-array name="tubs_navi_list">
+        <item>Wir über uns</item>
+        <item>Fakultäten</item>
+        <item>Institute</item>
+        <item>Zentrale Einrichtungen</item>
+    </string-array>
+    <string-array name="fakultaeten">
+        <item>1. Carl-Friedrich-Gauß-Fakultät</item>
+        <item>2. Lebenswissenschaften</item>
+        <item>3. Architektur, Bauingenieurwesen und Umweltwissenschaften</item>
+        <item>4. Maschinenbau</item>
+        <item>5. Elektrotechnik, Informationstechnik, Physik</item>
+        <item>6. Geistes- und Erziehungswissenschaften</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="drawer">drawer</string>
+
+</resources>

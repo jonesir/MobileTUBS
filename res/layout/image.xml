@@ -1,0 +1,7 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tubs_logo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tubs_theme_color"
+    android:src="@drawable/siegel_rot"
+    android:gravity="center" />

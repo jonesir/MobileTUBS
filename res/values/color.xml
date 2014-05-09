@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tubs_theme_color">#be1e3c</color>
+    <color name="navi_item_selected_text_color">#be1e3c</color>
+    <color name="navi_item_selected_background_color">#ffffff</color>
+    <color name="default_text_color">#ffffff</color>
+    <color name="default_content_background_color">#ffffff</color>
+    <color name="default_actionbar_background_color">#ffffff</color>
+    <color name="white">#ffffff</color>
+</resources>
