@@ -38,7 +38,8 @@ public class FakultaetenListAdapter extends BaseAdapter {
 				R.layout.fakultaeten_list_item, null);
 		TextView item = (TextView) convertView.findViewById(R.id.item_text);
 		item.setText(this._listItems[arg0]);
-
+		item.setBackgroundColor(arg0%2==0?this._context.getResources().getColor(R.color.white):this._context.getResources().getColor(R.color.tubs_theme_color));
+		item.setTextColor(arg0%2==0?this._context.getResources().getColor(R.color.tubs_theme_color):this._context.getResources().getColor(R.color.white));
 		return convertView;
 	}
 

@@ -4,5 +4,5 @@
     android:layout_height="match_parent"
     android:background="@color/default_content_background_color"
     android:choiceMode="singleChoice"
-    android:divider="@android:color/transparent"
+    android:divider="@color/tubs_theme_color"
     android:dividerHeight="0dp" />
