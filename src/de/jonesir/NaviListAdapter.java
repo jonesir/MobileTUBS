@@ -14,9 +14,9 @@ public class NaviListAdapter extends BaseAdapter {
 	private Context _context;
 	private int _selected;
 
-	public NaviListAdapter(Context context, String[] mPlanetTitles) {
+	public NaviListAdapter(Context context, String[] mNaviTitles) {
 		this._context = context;
-		this._naviItems = mPlanetTitles;
+		this._naviItems = mNaviTitles;
 	}
 
 	@Override
