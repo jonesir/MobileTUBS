@@ -15,6 +15,10 @@ public class FakultaetenFragment extends BaseFragment {
 	public FakultaetenFragment(Context context) {
 		super(context);
 	}
+	
+	public FakultaetenFragment(){
+		super();
+	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,

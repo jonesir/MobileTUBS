@@ -34,12 +34,15 @@ public class FakultaetenListAdapter extends BaseAdapter {
 
 	@Override
 	public View getView(int arg0, View convertView, ViewGroup arg2) {
-		convertView = LayoutInflater.from(this._context).inflate(
-				R.layout.fakultaeten_list_item, null);
+		convertView = LayoutInflater.from(this._context).inflate(R.layout.fakultaeten_list_item, null);
+		TextView index = (TextView) convertView.findViewById(R.id.index);
+		index.setText("" + (1 + arg0));
 		TextView item = (TextView) convertView.findViewById(R.id.item_text);
 		item.setText(this._listItems[arg0]);
-		item.setBackgroundColor(arg0%2==0?this._context.getResources().getColor(R.color.white):this._context.getResources().getColor(R.color.tubs_theme_color));
-		item.setTextColor(arg0%2==0?this._context.getResources().getColor(R.color.tubs_theme_color):this._context.getResources().getColor(R.color.white));
+		// item.setBackgroundColor(arg0%2==0?this._context.getResources().getColor(R.color.white):this._context.getResources().getColor(R.color.tubs_theme_color));
+		item.setBackgroundColor(this._context.getResources().getColor(R.color.white));
+		// item.setTextColor(arg0%2==0?this._context.getResources().getColor(R.color.tubs_theme_color):this._context.getResources().getColor(R.color.white));
+		item.setTextColor(this._context.getResources().getColor(R.color.tubs_theme_color));
 		return convertView;
 	}
 

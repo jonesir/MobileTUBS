@@ -17,6 +17,8 @@ public class BaseFragment extends Fragment implements OnClickListener{
 	private Context _context;
 	private RelativeLayout _relativeLayout;
 	
+	public BaseFragment(){}
+	
 	public Context getContext() {
 		return _context;
 	}

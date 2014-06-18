@@ -9,12 +9,12 @@
         <item>Zentrale Einrichtungen</item>
     </string-array>
     <string-array name="fakultaeten">
-        <item>1. Carl-Friedrich-Gauß-Fakultät</item>
-        <item>2. Lebenswissenschaften</item>
-        <item>3. Architektur, Bauingenieurwesen und Umweltwissenschaften</item>
-        <item>4. Maschinenbau</item>
-        <item>5. Elektrotechnik, Informationstechnik, Physik</item>
-        <item>6. Geistes- und Erziehungswissenschaften</item>
+        <item>Carl-Friedrich-Gauß-Fakultät</item>
+        <item>Lebenswissenschaften</item>
+        <item>Architektur, Bauingenieurwesen und Umweltwissenschaften</item>
+        <item>Maschinenbau</item>
+        <item>Elektrotechnik, Informationstechnik, Physik</item>
+        <item>Geistes- und Erziehungswissenschaften</item>
     </string-array>
 
     <string name="drawer_open">Open navigation drawer</string>

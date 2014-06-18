@@ -16,24 +16,25 @@ public class ZentraleeinrichtungenFragment extends BaseFragment {
 		super(context);
 	}
 
+	public ZentraleeinrichtungenFragment() {
+		super();
+	}
+
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		// get parent view
 		View v = super.onCreateView(inflater, container, savedInstanceState);
-		
+
 		RelativeLayout title = getRelativeLayout();
-		
-		ListView listView = (ListView)LayoutInflater.from(getContext()).inflate(R.layout.list, null);
-		
-		
+
+		ListView listView = (ListView) LayoutInflater.from(getContext()).inflate(R.layout.list, null);
+
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
 		params.addRule(RelativeLayout.BELOW, R.id.divider_view);
 		listView.setLayoutParams(params);
-		
-		
+
 		title.addView(listView);
-		
+
 		return v;
 	}
 }

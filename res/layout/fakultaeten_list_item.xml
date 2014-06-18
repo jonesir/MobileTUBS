@@ -1,11 +1,34 @@
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/item_text"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="80dp"
-    android:textAppearance="?android:attr/textAppearanceListItemSmall"
-    android:gravity="center_vertical"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
-    android:textColor="@color/tubs_theme_color"
-    android:background="@color/default_content_background_color"
-    android:minHeight="?android:attr/listPreferredItemHeightSmall"/>
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/tubs_theme_color"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawableTop="@color/white"
+        android:drawableBottom="@color/white"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_content_background_color"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="@color/tubs_theme_color" />
+
+</LinearLayout>
